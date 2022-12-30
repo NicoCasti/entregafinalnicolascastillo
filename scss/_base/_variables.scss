@@ -1,0 +1,19 @@
+//variables, se puede hacer con lista
+$color-principal: #f0f0d8;
+$color-boton: #5cb8ff;
+$curso-violeta: #5055df;
+$curso-celeste: #40a8f9;
+
+//mapa
+$boton:(
+    decoracion: none,
+    color: white,
+    color-fondo: $color-boton,
+    espacio: 14px 24px,
+);
+
+//extend
+%flexcol{
+    display: flex;
+    flex-direction: column;
+}

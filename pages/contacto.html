@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
+  <meta name="description" content="Hacemos cervezas distintas y te enseñamos como hacerlas!">
+  <meta name="keywords" content="cerveza, cerveza artesanal, craft, beer, maltas, agua, lupulo, levadura, cursos, capacitacion, cultura, formacion, cerveceria, ipa, stout, porter, golden">
+  <meta property="og:type" content="Web site">
+  <meta property="og:title" content="Pre-entrega Nicolás Castillo">
+  <meta property="og:description" content="Aprenda como elaborar cerveza en su casa">
+  <meta property="og:url" content="https://entregafinalnicolascastillo.netlify.app/">
+  <link rel="stylesheet" href="../css/estilos.css" />
+  <title>Pre-entrega Nicolás Castillo</title>
+</head>
+
+<body>
+  <div class="grid-contenedor">
+    <header class="encabezado">
+      <img src="../img/viejo-skill-logo.png" alt="logo" />
+      <nav class="menu">
+        <ul class="lista-menu">
+          <li><a href="../index.html">Inicio</a></li>
+          <li><a href="./nosotros.html">Sobre nosotros</a></li>
+          <li><a href="./cursos.html">Nuestros cursos</a></li>
+          <li><a href="./blog.html">Blog</a></li>
+          <li><a href="./contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="contenido">
+      <h3 class="text-center">Contacto</h3>
+        <div class="formulario">
+        <form action="" name="formulario" method="post">
+            <fieldset>
+                <legend>Tus Datos</legend>
+                
+                <div class="campo">
+                    <label for="nombre">Nombre: </label>
+                    <input  type="text" name="nombre" id="nombre" maxlength="30" placeholder="Tu Nombre">
+                </div>
+                
+                <div class="campo">
+                    <label for="apellido">Apellido: </label>
+                    <input  type="text" name="apellido" id="apellido" maxlength="30" placeholder="Tu Apellido">
+                </div>
+
+                <div class="campo">
+                    <label for="email">E-mail:</label>
+                    <input type="email" name="email" id="email" placeholder="Tu Email">
+                </div>
+
+                <div class="campo">
+                    <label for="tel">Teléfono:</label>
+                    <input type="tel" name="tel" id="tel" placeholder="Tu Teléfono" >
+                </div>
+
+                <div class="campo">
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea name="mensaje" id="mensaje" rows="10" cols="20"></textarea>
+                </div>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>País</legend>
+
+                <div class="campo">
+                    <label for="pais">País</label>
+                    <select name="pais" id="pais">
+                        <option value="">-- Seleccione -- </option>
+                        <option value="MX">México</option>
+                        <option value="PR">Perú</option>
+                        <option value="CO">Colombia</option>
+                        <option value="AR">Argentina</option>
+                        <option value="ES">Ecuador</option>
+                        <option value="CL">Chile</option>
+                        <option value="OT">Otros</option>
+                    </select>
+
+                </div>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Información Extra</legend>
+
+                <div class="campo">
+                    <label for="categoria">Categoría de Interés</label>
+                    <select name="categoria" id="categoria">
+                        <option value="">-- Seleccione -- </option>
+                        <option value="C1">Elaboración de cerveza artesanal</option>
+                        <option value="C2">Elaboración de cerveza libre de gluten</option>
+                        <option value="C3">Técnicas avanzadas para la elaboración de cerveza</option>
+                        <option value="C4">Embarrilado y llenado a contrapresio</option>
+                        <option value="C5">Re-utilización y propagación de levaduras</option>
+                        <option value="C6">Quimica y tratamiento del agua cervecera</option>
+                    </select>
+                </div>
+
+            </fieldset>
+
+            <input class="btn" type="submit" id="btn1" value="Enviar Formulario" >
+        </form>
+    </div>
+    </main>
+
+    <footer class="pie">
+      <div class="redes">
+        <a href="https://www.facebook.com/" target="_blank"><img src="../img/facebook.png" alt="logo facebook" /></a>
+        <a href="https://www.instagram.com" target="_blank"><img src="../img/instagram.png" alt="logo instagram" /></a>
+        <a href="https://www.whatsapp.com/?lang=es" target="_blank"><img src="../img/whatsapp.png" alt="logo whatsapp" /></a>
+        <a href="https://www.youtube.com/" target="_blank"><img src="../img/youtube.png" alt="logo youtube" /></a>
+      </div>
+      <div class="links-footer">
+        <a href="../index.html">Inicio</a>
+        <a href="../pages/contacto.html">Contacto</a>
+      </div>
+    </footer>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,40 @@
+@import "./variables";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.grid-contenedor {
+  display: grid;
+  grid-template-rows: auto auto auto;
+  grid-template-columns: auto auto auto;
+  grid-template-areas: 
+  "encabezado encabezado encabezado"
+  "contenido contenido contenido"
+  "contenido contenido contenido"
+  "contenido contenido contenido"
+  "pie pie pie";
+}
+
+.grid-contenedor{
+  .encabezado{
+    grid-area: encabezado;
+  }
+}
+.grid-contenedor{
+  .contenido{
+    grid-area: contenido;
+  }
+}
+.grid-contenedor{
+  .pie{
+    grid-area: pie;
+  }
+}

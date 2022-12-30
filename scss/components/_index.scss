@@ -1,0 +1,31 @@
+@import "../_base/variables";
+
+.section-principal{
+    background-image: url("../img/fondo-index2.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    @extend %flexcol;
+    justify-content: center;
+    align-items: flex-end;
+    .titular{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        h1{
+            text-align: center;
+            color: white;
+            font-size: 60px;
+            margin-bottom: 25px;
+        }
+        a{
+            text-decoration: map-get($boton,decoracion);
+            color: map-get($boton,color);
+            background: map-get($boton, color-fondo);
+            padding: map-get($boton, espacio);
+        }
+    }
+}
